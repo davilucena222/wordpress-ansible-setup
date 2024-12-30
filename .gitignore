@@ -1,0 +1,15 @@
+*.retry
+
+# ssh keys
+mysqlvm
+vm1
+wordpressvm
+*.pub
+
+# file with sensible data
+group_vars/all.yaml
+group_vars/mysql.yaml
+group_vars/wordpress.yaml
+
+# defining hosts to install the packages
+hosts

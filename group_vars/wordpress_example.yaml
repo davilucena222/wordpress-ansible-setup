@@ -1,0 +1,13 @@
+---
+db_ip: '' # ip address to access the database machine host
+wp_dir: '/srv/www/wordpress' # wordpress installation location
+
+# wordpress salt hash keys to ensure that your site is not vulnerable to “known secrets” attacks
+auth_key: ''
+secure_auth_key: ''
+logged_in_key: ''
+nonce_key: ''
+auth_salt: ''
+secure_auth_salt: ''
+logged_in_salt: ''
+nonce_salt: ''
