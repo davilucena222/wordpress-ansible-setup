@@ -85,3 +85,12 @@ $ ansible-playbook provisioning.yaml -i hosts -K
 ```
 
 PS: The **provisioning.yaml** file references the other files related to WordPress and MySQL, which perform the installation of dependencies, necessary configurations to run the applications, access to the machines via IP address, and creation of user and password.
+
+PS: Remember to uncomment these lines in the .gitignore file to prevent these files from being committed.
+
+```bash
+# group_vars/all_example.yaml
+# group_vars/mysql_example.yaml
+# group_vars/wordpress_example.yaml
+
+```

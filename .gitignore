@@ -11,5 +11,9 @@ group_vars/all.yaml
 group_vars/mysql.yaml
 group_vars/wordpress.yaml
 
+# group_vars/all_example.yaml
+# group_vars/mysql_example.yaml
+# group_vars/wordpress_example.yaml
+
 # defining hosts to install the packages
 hosts
